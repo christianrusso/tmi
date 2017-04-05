@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "Cocogoose";
+    src: url(../fonts/Cocogoose_trial.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular"
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url (../fonts/Roboto/Roboto-Thin.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url (../fonts/Calibri.ttf) format("truetype");
+}
+
+p
+{
+    font-family: "Roboto-Regular";
+    color: #58595C;
+    word-wrap: break-word; /* IE 5.5-7 */
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Cocogoose";
+}
+
+.sponsor {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* historia */
+.historia {
+    margin: auto;
+    text-align: left;
+    padding-top: 20px;
+}
+
+
+.historia img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.texto-historia p {
+    color: #58595C;
+    text-align: left;
+    text-indent: 2em;
+    font-size: large;
+    font-family: "Calibri";
+}
+
+.contenedor-historia {
+  background-color: #FAFAFA;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.historia-subtitulo {
+    font-size: 20px;
+    color: #58595C;
+    text-align: left;
+    text-indent: 2em;
+    font-size: x-large;
+}
+
+.historia-titulo
+{
+    font-family: "Cocogoose";
+    display: block;
+    color: #000;
+    font-weight: 900;
+    text-indent: 0em;
+    padding-bottom: 5px;
+    border-bottom: solid 4px #E4251F;
+    font-size: 45px;
+}
+/* /historia */
+
+/* recaudar */
+.recaudar {
+    border-left: thick solid #E4251F;
+    border-width: 4px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 100%
+}
+
+.recaudar h2 {
+    text-align: center;
+}
+
+.recaudar h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.recaudar p {
+    font-size: 18px;
+}
+
+.recaudar a {
+    text-align: center;
+}
+
+i.money, b.money {
+    color: #5CB85C;
+}
+
+.recaudar .sin-tiempo {
+    color: #E4251F;
+}
+
+.barra-progreso {
+    font-size: 1.0em;
+    color: black;
+}
+
+.progress {
+    position: relative;
+    height: 20px;
+}
+
+.progress span {
+    font-size: 1.0em;
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+ }
+
+ /* /recaudar */
+
+ .centerbtn {
+    text-align: center;
+ }
+
+ .spacer {
+    height: 30px;
+ }
+
+.orbit-logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.orbit-logo img {
+    width: 120px;
+    height: 55px;
+}
+
+.contacto-home {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contacto-home h3 {
+    color: #2E4F9D;
+}
+
+.contacto-home input[type="submit"] {
+    background-color: #2E4F9D;
+    border-color: #E4251F;
+}
+
+.contacto-home input[type="submit"]:hover {
+    background-color: #E4251F;
+    border-color: #2E4F9D;
+}
+
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+/* Bienvenido Index */
+.bienvenido {
+    margin-top: 48px;
+    background: url(../images/people.jpg);
+    margin-bottom: 35px;
+}
+
+.bienvenido p {
+    color: #fff;
+}
+
+.bienvenido strong {
+    font-family: "Cocogoose";
+    font-weight: bold;
+}
+/* /Bienvenido Index */
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus
+{
+    color: #FFFFFF;
+    background-color: #E4251F;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.nav-tabs.nav-justified > li > a 
+{
+    color: #2E4F9D;
+}
+
+.carousel-img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.activo {
+    color: #FF0000;
+}
+
+.facebook-data {
+    text-align: center;
+    margin-top: 25px;
+    border-top: thick solid #E4251F;
+    border-width: 4px;
+}
+
+.facebook-data h2 {
+    margin-top: 20px;
+}
+
+.facebook-data p {
+    text-align: left;
+}
+
+/* Titulo TMI */
+
+.titulo-tmi2 {
+    background-color: #2C529E;
+}
+
+.titulo-tmi h2 {
+    text-align: center;
+    font-weight: 900;
+    color: #2E4F9D;
+    font-size: 50px;
+}
+
+.titulo-tmi2 h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+
+.titulo-tmi hr, .titulo-tmi2 hr {
+    border-top: 3px solid #E4251F;
+}
+/* /Titulo TMI */
+
+.primer-imagen {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+.no-pad {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Popup */
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    max-width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.modalDialog h2 {
+    color: #2E4F9D;
+}
+
+.modalDialog label {
+    margin-top: 5px;
+}
+
+.close {
+    background: #E4251F;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -1px;
+    text-align: center;
+    top: 0px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #2E4F9D; }
+
+/* /Popup */
+
+/* Donación */
+.donacion-form {
+    margin-bottom: 40px;
+}
+
+.donacion-form p {
+    font-size: 17px;
+}
+
+.donacion-form h3 {
+    color: #2E4F9D;
+}
+
+.donacion-form label {
+    margin-left: 0;
+}
+
+.donacion-form input {
+    margin-bottom: 15px;
+    color: black !important;
+}
+/* /Donacion */
+
+/* Form comentarios */
+.coment-form h3 {
+    color: #2E4F9D;
+}
+
+.coment-form input[type="text"] {
+    border-bottom: 2px solid #E4251F;
+    font-family: "Roboto-Regular";
+}
+
+.coment-form textarea {
+    border-bottom: 2px solid #E4251F;
+    font-family: "Roboto-Regular";
+}
+
+.coment-form input[type="submit"] {
+    color: #FFF;
+    background-color: #2E4F9D;
+    border: 1px solid #E4251F;
+    font-family: "Cocogoose";
+}
+
+.coment-form input[type="submit"]:hover {
+    color: #FFF;
+    background-color: #E4251F;
+    border: 1px solid #2E4F9D;
+}
+
+/* /Form comentarios */
+
+.fb-login {
+    text-align: center;
+    margin-top: 25px;
+}
